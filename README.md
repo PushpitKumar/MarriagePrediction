@@ -51,8 +51,8 @@ Follow the instructions if you want to run the app from your local computer.
 pip install -r requirements.txt
 ```
 ### 6. Building the Web App
-* The web was developed using Streamlit web-app framework which is written in python suitable for small scale projects such as this one. For more information you can check the offical streamlit website by clicking [here](https://streamlit.io/)
-* Basic understanding of streamlit and html was needed for designing the webpage and to make sure it was responsive to user inputs. 
+* The web-app was developed using Streamlit framework which is written in python, suitable for small scale projects such as this one. For more information you can check the offical streamlit website by clicking [here](https://streamlit.io/)
+* Basic understanding of streamlit and html was needed for designing the web-app and to make sure it was responsive to user inputs. 
 
 ### 7. Model Deployment on Heroku Platoform
 * You will have to create a account in order to deploy the model. Login to your account and go to the deploy section.
@@ -62,16 +62,16 @@ pip install -r requirements.txt
 
 ### 8. App Implementation  
 * Link: [MarriagePrediction](https://marriagepredictor99.herokuapp.com/)  
-* The app asks for user to enter their Height(Cm), Religion, Caste and Mother-Tongue. Based on these input the age of marriage is predicted.  
+* The app asks for user to enter their Height(Cm), Religion, Caste and Mother-Tongue. Based on these inputs, the age of marriage is predicted.  
 
 ![1](https://user-images.githubusercontent.com/83957848/121886360-eccf4e80-cd32-11eb-84b7-f4165144293a.JPG)
 
 ### 9. Drawbacks and Future Scope
 * A large amount of data was missing and had to be dropped because I could not find any other way of treating the missing values. 
-* Some classifier algorithm can be applied to determine the missing data for categorical features.
+* Some classifier algorithm such as nearest neighbors can be applied to determine the missing data for categorical features.
 * Most of the records collected are from Indian background which may lead to biased results.
 * The app's front end has room for improvement using CSS or other styling techniques.
 * Model performance can be improved.
 
 ### 10. Credits
-I would like to thank [Ashok Veda](https://github.com/ashokveda) Sir and Datamites team for providing the dataset on their youtube channel whose work was taken as inspiration for successful completion of this project.  
+I would like to thank [Ashok Veda](https://github.com/ashokveda) Sir and Datamites team for providing the dataset on their youtube channel, whose work was taken as inspiration for successful completion of this project.  
